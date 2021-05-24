@@ -1,0 +1,10 @@
+This file shows a simple Azure function designed to give a sum back based on input variables x and y.
+
+
+# The response to the following command will be 'The sum of 30 and 40 is 70'
+curl "https://learn-app-tjh.azurewebsites.net/api/HttpTrigger1" -d '{"x":30, "y":40}'
+
+
+# The response to the following command will be 'The request body needs an "x" key and a "y" key'
+curl "https://learn-app-tjh.azurewebsites.net/api/HttpTrigger1" -d '{"x":30}'
+
