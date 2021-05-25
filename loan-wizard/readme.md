@@ -1,6 +1,6 @@
-#This project demonstrates how to locally build a simple Azure Function using Azure CLI and Core Tools, then push it to the cloud.
+# This project demonstrates how to locally build a simple Azure Function using Azure CLI and Core Tools, then push it to the cloud.
 
-#Instructions on how to do this again:
+# Instructions on how to do this again:
 
 `func init` choose node, then javascript
 
